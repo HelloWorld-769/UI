@@ -192,9 +192,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-image: url(/assets/Images/Group\ 1926.png);
-  background-position: left -4em top 134px;
+  background-position: left 0em top 80px;
   background-repeat: no-repeat;
-
 }
 
 .sub-group-1 {
@@ -229,9 +228,8 @@ body {
 
 .golf_pic {
   position: absolute;
-  bottom: 0;
-  right: -57%;
-  z-index: -1;
+  margin-top: 12px;
+ margin-left: 279px;
 }
 
 .Topgolf .img {
@@ -258,7 +256,7 @@ body {
 }
 
 .golf-title .title {
-  font-size: 80px;
+  font-size: 85px;
   font-weight: 700;
   height: 190px;
   line-height: 85px;
@@ -301,12 +299,15 @@ body {
 }
 
 .golf_stick {
-  width: 100%;
+  width: 165%;
+  /* height: 180px; */
   position: absolute;
   bottom: 0;
-  right: 56%;
+  /* right: 2px; */
+  margin-left: -17em;
+  /* left: 0%; */
   z-index: -1;
-  top: 28%;
+  top: 320px;
 }
 
 .Topgolf_logo_Text {
@@ -337,7 +338,7 @@ body {
   min-height: 707px;
   border-radius: 8px;
   background-color: rgba(240, 115, 88, 1);
-  margin-top: 18%;
+  margin-top: 16%;
   display: flex;
   flex-direction: column;
   align-items: center;
